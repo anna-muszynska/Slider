@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+container {
+  margin: auto;
+  height: 300px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: calc(50vh - 150px);
+}
+
+div {
+  min-width: 400px;
+  min-height: 250px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+button {
+  width: 80px;
+  height: 25px;
+  border-style: none;
+  border-radius: 3px;
+  font-size: 14px;
+  position: relative;
+  top: calc(50vh - 100px);
+  left: calc(50vw - 80px);
+  color: #fff;
+  background-color: rgb(93, 90, 90);
+  opacity: 0.5;
+}
+
+.image3,
+.image5 {
+  position: absolute;
+  z-index: -1;
+}
+
+.image2,
+.image6 {
+  position: absolute;
+  z-index: -2;
+}
+
+.image1,
+.image7 {
+  position: absolute;
+  z-index: -3;
+}
+
+.image4 {
+  left: calc(50% - 220px);
+  right: calc(50% - 220px);
+  z-index: 1;
+  transform: scale(105%);
+  transition: left 1s;
+}
+
+.image1 {
+  left: 0%;
+  transform: scale(85%);
+  filter: brightness(0.4);
+  transition: filter 1s, left 1s;
+}
+
+.image2 {
+  left: 10%;
+  transform: scale(90%);
+  filter: brightness(0.5);
+  transition: filter 1s, left 1s;
+}
+
+.image3 {
+  left: 20%;
+  transform: scale(95%);
+  filter: brightness(0.6);
+  transition: filter 1s, left 1s;
+}
+
+.image7 {
+  right: 0%;
+  transform: scale(85%);
+  filter: brightness(0.4);
+  transition: filter 1s, right 1s;
+}
+
+.image6 {
+  right: 10%;
+  transform: scale(90%);
+  filter: brightness(0.5);
+  transition: filter 1s, right 1s;
+}
+
+.image5 {
+  right: 20%;
+  transform: scale(95%);
+  filter: brightness(0.6);
+  transition: filter 1s, right 1s;
+}
+
+.div1 {
+  background-image: url(./images/animal-6543231_640.jpg);
+  background-size: cover;
+}
+.div2 {
+  background-image: url(./images/fantasy-6403406_640.jpg);
+  background-size: cover;
+}
+.div3 {
+  background-image: url(./images/chameleon-4185364_640.jpg);
+  background-size: cover;
+}
+.div4 {
+  background-image: url(./images/sunset-5383043_640.jpg);
+  background-size: cover;
+}
+.div5 {
+  background-image: url(./images/sunflower-6546993_1920.jpg);
+  background-size: cover;
+}
+.div6 {
+  background-image: url(./images/mountain-6538890_640.jpg);
+  background-size: cover;
+}
+.div7 {
+  background-image: url(./images/ladybug-6364312_640.jpg);
+  background-size: cover;
+}
